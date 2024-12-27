@@ -1,5 +1,7 @@
 #include <stdint.h>
 #include <stdlib.h>
+#include <gpio_regs.h>
+#include <uart_regs.h>
 
 // UART Register Definitions
 #define __I  volatile const // 'read only' permissions
